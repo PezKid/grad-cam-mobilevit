@@ -17,16 +17,27 @@ Grad-CAM is a useful tool in computer vision that gives a human-readable visual 
 **Steps to set up your environment:**
 
 1. **Clone the repository:**
-- ```bash
-- git clone <your-repo-url>
-- cd <your-repo-folder>
+
+  ```bash
+  git clone https://github.com/PezKid/grad-cam-mobilevit
+  cd grad-cam-mobilevit
+  ```
 
 2. **Create and activate the conda environment:**
-- conda create -n gradcam python=3.10
-- conda activate gradcam
+
+  ```bash
+  conda create -n gradcam python=3.10
+  conda activate gradcam
+  ```
 
 3. **Install required packages:**
-- pip install -r requirements.txt
+
+  ```bash
+  pip install -r requirements.txt
+  ```
 
 4. **Start the Jupyter notebook:**
-- jupyter notebook GradCAM_MobileViTv2.ipynb
+
+  ```bash
+  jupyter notebook GradCAM_MobileViTv2.ipynb
+  ```
