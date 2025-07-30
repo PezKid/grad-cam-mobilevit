@@ -4,4 +4,4 @@ transformers
 matplotlib
 opencv-python
 timm
-pytorch-gradcam
+grad-cam
